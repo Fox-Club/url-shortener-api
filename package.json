@@ -1,0 +1,19 @@
+{
+  "name": "url-shortener-api",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "repository": "https://github.com/Fox-Club/url-shortener-api.git",
+  "author": "Guilherme Miua <guilhermemiua@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
